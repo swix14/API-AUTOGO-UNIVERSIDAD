@@ -4,11 +4,11 @@ const { Sequelize } = require('sequelize');
 // Configuración de la conexión
 const sequelize = new Sequelize({
 dialect: 'mysql',
-host: 'localhost',
-port: 3306,
-username: 'root', 
-password: 'Seba1107!',
-database: 'autogo', 
+host: '------',
+port: -----,
+username: '----', 
+password: '-------',
+database: '-----', 
 logging: console.log, 
 timezone: '-04:00', 
 pool: {
